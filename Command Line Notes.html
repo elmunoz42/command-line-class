@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Command Line Notes</h1>
+    <h2>Home</h2>
+    <pre><font color="#8AE234"><b>student@freekbox</b></font> <font color="#729FCF"><b>~ $</b></font></pre>
+    <p>user @ host </p>
+    <h3>List</h3>
+    <p>ls for list</p>
+    <p>ls -l gives you extra info</p>
+    example:
+    <pre>drwxr-xr-x 4 student student 4096 Jun  8 10:37 <font color="#729FCF"><b>Desktop</b></font>
+drwxr-xr-x 2 student student 4096 Jun  8 10:49 <font color="#729FCF"><b>Documents</b></font>
+drwxr-xr-x 2 student student 4096 Jun  8 10:37 <font color="#729FCF"><b>Downloads</b></font>
+lrwxrwxrwx 1 student student   31 Jun  8 10:37 <font color="#34E2E2"><b>examples</b></font> -&gt; <font color="#729FCF"><b>/usr/local/commandline/examples</b></font>
+drwxr-xr-x 2 student student 4096 Jun  8 10:37 <font color="#729FCF"><b>Music</b></font>
+drwxr-xr-x 2 student student 4096 Jun  8 10:37 <font color="#729FCF"><b>Pictures</b></font>
+drwxr-xr-x 2 student student 4096 Jun  8 10:37 <font color="#729FCF"><b>Public</b></font>
+drwxr-xr-x 2 student student 4096 Jun  8 10:37 <font color="#729FCF"><b>Templates</b></font>
+drwxr-xr-x 2 student student 4096 Jun  8 10:37 <font color="#729FCF"><b>Videos</b></font>
+</pre>
+<h3>First Letter is type of file</h3>
+    <ul>
+      <li>- means its a file</li>
+      <li>d means its a directory</li>
+      <li>l means its a link</li>
+    </ul>
+    <h3>Next is permissions</h3>
+    <ul>
+      <li>first three letter read write execute for owner</li>
+      <li>second three for group users</li>
+      <li>third is for other users</li>
+    </ul>
+    <h3>Next is who owns it</h3>
+    <h3>Next is the group that can use it</h3>
+    <h3></h3>
+
+    <h2>Manual for Lists</h2>
+    <p>man ls</p>
+    <h2>Short manual</h2>
+    <p>ls --help</p>
+    <h2>You can use multiple options together</h2>
+    <p>example: ls -l -a</p>
+    <p>or condensed: ls -la</p>
+    <h2>Show filesize in human readable form</h2>
+    <p>ls -lah</p>
+    <h2>Show directory or file in quotes</h2>
+    <p>ls -lahQ</p>
+    <h2>pwd - Print Working Directory</h2>
+    <p></p>
+    <br>
+    <h2>Absolute Paths:</h2>
+    <p>ls /var/log/auth.log is where you can see if people are trying to hack into your computer</p>
+    <h2>Relative Paths:</h2>
+    <p>ls .. to go back to previous directory or ../..</p>
+    <h2>Run the ls program that is currently installed</h2>
+    <p>./ls</p>
+    <h2>Tab and double tab trick</h2>
+    <p>If you type tab it auto completes</p>
+    <p>if you type tab tab it will </p>
+    <p>if you type tab tab again and it will show whats inside</p>
+    <h2>Search for Program:</h2>
+    <p><pre>apt-cache search pong
+</pre></p>
+    <h2>Download Program</h2>
+    <pre>sudo apt-get pong2</pre>
+    <h2>To run</h2>
+    <p>pong2</p>
+    <h2>env</h2>
+    Shows environment variables
+    <h2>env | grep PATH</h2>
+    <p></p>
+    <h2>Grep command</h2>
+    <p><pre>grep -Hrni foo foo.txt
+</pre></p>
+    <h2>find</h2>
+    <p>find . -name foo.txt</p>
+    <p>find . -name "*foo*"</p>
+    <h2>slocate program </h2>
+    <p>install the program</p>
+    <p>updatedb  (add all files to database)</p>
+    <p>locate foo</p>
+
+
+
+
+  </body>
+</html>
